@@ -14,6 +14,8 @@ function fetchUser() {
         const email = user.email;
         const image = user.picture.large;
 
+        // Created card, column, img, etc. elements
+
         const cardElement = document.createElement("div");
         const columnElement = document.createElement("div");
         const imgElement = document.createElement("img");
